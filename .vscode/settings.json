@@ -1,0 +1,24 @@
+{
+  "debug.toolBarLocation": "commandCenter",
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      140
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.flutterSdkPath": ".fvm/versions/3.24.3",
+  "dart.lineLength": 140,
+  "search.exclude": {
+    "**.freezed.dart": true,
+    "/lib/proto": true,
+    "pubspec.lock": true
+  }
+}
