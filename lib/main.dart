@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_font_multi_family_demo/app_text_style.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -38,14 +39,7 @@ class Home extends StatelessWidget {
 
             return Center(
               child: DefaultTextStyle(
-                style: GoogleFonts.jost(
-                  color: Colors.black,
-                ).copyWith(
-                  fontFamilyFallback: [
-                    ...GoogleFonts.jost().fontFamilyFallback ?? [],
-                    GoogleFonts.notoSansJp().fontFamily ?? '',
-                  ],
-                ),
+                style: AppTextStyle(color: Colors.black).bold,
                 child: const Text(
                   '''
 abcdefghijklmnopqrstuvwxyz
